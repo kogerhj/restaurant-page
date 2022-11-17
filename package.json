@@ -4,7 +4,8 @@
   "description": "In in this project I will be creating a restaurant page using HTML/CSS/JS. The main goal here is to get comfortable using Webpack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
