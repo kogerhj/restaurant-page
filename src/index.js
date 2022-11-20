@@ -1,1 +1,3 @@
-console.log('It still works')
+import createHomePage from "./home.js";
+
+createHomePage();
