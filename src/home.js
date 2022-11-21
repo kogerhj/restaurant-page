@@ -9,6 +9,20 @@ export default function createHomePage() {
     tabContainer.classList.add('tab-container');
     content.appendChild(tabContainer);
 
+    function createTabs(num) {
+        let tabNames = ['Home', 'Menu', 'Contact'];
+        let btnClasses = ['home', 'menu', 'contact'];
+        for (let i = 0; i < num; i++) {
+            let tab = document.createElement('button');
+            tab.classList.add('btn');
+            tab.classList.add(btnClasses[i]);
+            tab.textContent = tabNames[i];
+            tabContainer.appendChild(tab);
+        }
+    }
+
+    createTabs(3);
+
     const centerPane = document.createElement('div');
     centerPane.classList.add('center-pane');
     content.appendChild(centerPane);
