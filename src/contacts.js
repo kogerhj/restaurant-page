@@ -29,7 +29,7 @@ export default function createContactsPage() {
 
     const description = document.createElement('h3');
     description.classList.add('description');
-    description.textContent = "So what is it?"
+    description.textContent = "Contacts"
     centerPane.appendChild(description);
 
     const descriptionParagraph = document.createElement('p');
