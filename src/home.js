@@ -16,6 +16,7 @@ export default function createHomePage() {
             let tab = document.createElement('button');
             tab.classList.add('btn');
             tab.classList.add(btnClasses[i]);
+            tab.setAttribute('id', btnClasses[i]);
             tab.textContent = tabNames[i];
             tabContainer.appendChild(tab);
         }
