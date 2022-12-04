@@ -57,3 +57,7 @@ body {
     align-items: center;
     border-radius: 10px;
 }
+
+.active {
+    display: block;
+}
